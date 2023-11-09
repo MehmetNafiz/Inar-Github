@@ -1,0 +1,11 @@
+package week_09.assignments.Question_09_02;
+
+public class StockTest {
+    public static void main(String[] args) {
+        Stock stock1 = new Stock("ORCL", "Oracle Corporation", 34.5, 34.35);
+
+        System.out.println("Stock name : " + stock1.name);
+        System.out.println("Stock symbol: " + stock1.symbol);
+        System.out.println("Price-change percentage: " + stock1.getChangePercent());
+    }
+}
